@@ -12,4 +12,4 @@ binary_representation = bin(int_num)[2:]  # [2:] to remove the '0b' prefix
 binary_representation = binary_representation.zfill(8)
 
 # Print the binary representation
-print("The integer", int_num, " converted into a binary number is " ,binary_representation)
+print("The integer", int_num, " converted into a binary number is ", binary_representation)

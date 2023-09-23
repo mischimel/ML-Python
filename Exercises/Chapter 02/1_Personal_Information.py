@@ -1,10 +1,10 @@
-# 1. Personal Information
 # Write a program that displays the following information:
 # • Your name
 # • Your address, with city, state, and ZIP
 # • Your telephone number
 # • Your college major
 
+# Ask for the information
 name = input("Enter your name: ")
 address = input("Enter your address: ")
 city = input("Enter your city: ")
@@ -13,6 +13,7 @@ state_zip = input("Enter your zip: ")
 phone = input("Enter your phone: ")
 major = input("Enter your major: ")
 
+# Print the information
 print(f"Your name is {name}")
 print(f"Your address is {address}")
 print(f"Your city is {city}")
