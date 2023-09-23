@@ -13,4 +13,3 @@ print("If the charge of your food is ", food_charge,
       "\nThe total consiting of the charge of the food, the tip and the sales tax is " , round(food_charge+tip+sales_tax,2))
 
 # function round(number, decimals)
-
