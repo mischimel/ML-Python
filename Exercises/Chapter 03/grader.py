@@ -22,3 +22,11 @@ elif score >= D_score:
     print("your grade is D.")
 else:
     print("Your grade is F.")
+
+
+# Using "switch" stementent to determin the grade.
+match score:
+    case int(score) if score >= A_score:
+        print("A")
+    case int(score) if score >= B_score:
+        print("B")
