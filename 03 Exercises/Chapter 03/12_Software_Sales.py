@@ -44,4 +44,4 @@ total = purchase - discount_amount
 
 print("The amount of the discount (if any) is:", discount_amount,
       "\nand the total amount of the purchase after the discount is: ", total, ".",
-      f"\n As you purchased {number_of_packages} packages you received a {discount_percentage*100}% discount.")
+      f"\nAs you purchased {number_of_packages} packages you received a {discount_percentage*100}% discount.")
