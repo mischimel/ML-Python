@@ -4,13 +4,13 @@
 # The translation itself should be coded using a function.
 # For implementation use an existing powerful Python package. Assess the quality of the translations conducted.
 
-# Import the Translator class from the googletrans module
+# Import the Translator class from the googletrans module (use version 4.0.0.rc1)
 from googletrans import Translator
 
 # Define a function named 'translate_to_english' that takes one argument 'input_text' and translates it to 'output_text'
-def translate_to_english(input_text):
+def translate_to_english(input_text) -> str: # -> str = is a typehint, so you know what the output of this method/function
     # Create an instance of the Translator class
-    translator = Translator()
+    translator = Translator() # this is object oriented, but will not be covered in this class
 
     # Use the translator to translate 'input_text' from its detected language to English
     # 'dest' specifies the destination language (English in this case)
