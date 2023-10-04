@@ -4,7 +4,7 @@ NUM_DAYS = 5
 
 def main():
     # Create a list to hold the sales for each day.
-    sales = [0] * NUM_DAYS
+    sales = [0] * NUM_DAYS # create a list (an Array) with the correct amount of elements
 
     print('Enter the sales for each day.')
     

@@ -4,6 +4,8 @@
 def main():
     # Create a list with some items.
     food = ['Pizza', 'Burgers', 'Chips']
+    # food = ['Pizza', 'Pizza', 'Pizza']
+    # when you then want to remove Pizza, it only removes the first occurance
 
     # Display the list.
     print('Here are the items in the food list:')
