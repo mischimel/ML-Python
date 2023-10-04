@@ -1,7 +1,7 @@
 # This program calculates gross pay.
 
 def main():
-    try:
+    try: # you want to execute code
         # Get the number of hours worked.
         hours = int(input('How many hours did you work? '))
 
@@ -13,10 +13,17 @@ def main():
 
         # Display the gross pay.
         print(f'Gross pay: ${gross_pay:,.2f}')
-    except ValueError:
+    except ValueError: # all possible "dirty" situations
         print('ERROR: Hours worked and hourly pay rate must')
         print('be valid integers.')
 
 # Call the main function.
 if __name__ == '__main__':
     main()
+
+"""
+try: you want to execute code
+except: all possible "dirty" situations (is the java "catch")
+else:v code is executed when everything is working (when try works)
+finally: always executed
+"""

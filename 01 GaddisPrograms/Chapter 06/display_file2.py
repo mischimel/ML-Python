@@ -16,7 +16,7 @@ def main():
         print(contents)
 
         # Close the file.
-        infile.close()
+        infile.close()  # file could also be closed in the finally clause, depends on preferences of programmer
     except IOError:
         print('An error occurred trying to read')
         print('the file', filename)

@@ -4,7 +4,7 @@
 
 def main():
     # Open a file for writing.
-    outfile = open('numbers.txt', 'w')
+    outfile = open('numbers.txt', 'w') # it does create a .txt file called numbers (so no such file needs to exist)
 
     # Get three numbers from the user.
     num1 = int(input('Enter a number: '))
@@ -16,7 +16,7 @@ def main():
     outfile.write(str(num2) + '\n')
     outfile.write(str(num3) + '\n')
 
-    # Close the file.
+    # Close the file.(close file handler)
     outfile.close()
     print('Data written to numbers.txt')
 
