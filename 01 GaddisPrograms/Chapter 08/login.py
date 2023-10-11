@@ -16,7 +16,7 @@ def get_login_name(first, last, idnumber):
     # Get the last three characters of the student ID.
     # If the ID number is less than 3 characters, the
     # slice will return the entire ID number.
-    set3 = idnumber[-3 :]
+    set3 = idnumber[-3 :] # slicing last 3 elements
 
     # Put the sets of characters together.
     login_name = set1 + set2 + set3
