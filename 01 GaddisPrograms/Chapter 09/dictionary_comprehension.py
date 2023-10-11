@@ -24,6 +24,7 @@ state = ['India', 'Switzerland', 'Austria']
 capital = ['New Delhi', 'Bern', 'Vienna']
 
 # The zip() function returns a zip object, which is an iterator of tuples
+# (zip = putting things together, has nothing to do with zip folderd/files)
 dict_using_comp = {key: value for (key, value) in zip(state, capital)}
 print("Output Dictionary using dictionary comprehensions:", dict_using_comp)
 # Shorter Alternative:

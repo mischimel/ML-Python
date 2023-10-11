@@ -1,5 +1,5 @@
-# This program uses a dictionary to keep friends'
-# names and birthdays.
+# This program uses a dictionary to keep friends' names and birthdays.
+# dictonary = {key(name): value(bday)}
 
 # Global constants for menu choices
 LOOK_UP = 1
