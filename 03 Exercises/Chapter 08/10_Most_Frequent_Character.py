@@ -15,28 +15,32 @@ def main():
     # Receive user input.
     user_string = input('Enter a string: ')
 
+    # Loop through the string from the user
     for ch in user_string:
-        ch = ch.upper()
-        # Convert the character to uppercase to handle both lowercase and uppercase.
+        ch = ch.upper() # Convert the character to uppercase to handle both lowercase and uppercase.
 
         # Determine which letter this character is.
-        index = letters.find(ch)
         # Find the index of the character in the uppercase letters string.
+        index = letters.find(ch)
+
+        # the index of the list cannot be smaller 0
         if index >= 0:
-            # Check if the character is an uppercase letter.
-
-            # Increase counting array for this letter.
-            count[index] = count[index] + 1
             # Increment the count for the corresponding letter.
+            count[index] = count[index] + 1
 
+    # Iterate through the count list to find the most frequent letter.
     for i in range(len(count)):
+        # if the number from the count list is bigger than the number at position frequent, set the frequent to that position index
         if count[i] > count[frequent]:
             frequent = i
-        # Iterate through the count list to find the most frequent letter.
 
+    # Display the most frequently appearing character.
+    # --> the letters list has the same indexes as the count list,
+    # so before we found the biggest number and its index in the count list,
+    # therefore we know that the letter from the letter list at that index is the one appearing most frequent.
     print(f'The character that appears most frequently '
           f'in the string is {letters[frequent]}.')
-    # Display the most frequently appearing character.
+
 
 # Call the main function.
 if __name__ == '__main__':
