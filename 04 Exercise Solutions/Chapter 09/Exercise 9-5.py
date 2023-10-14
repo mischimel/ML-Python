@@ -8,7 +8,7 @@ d = dict()
 for line in text:
     # Remove the leading spaces and newline character
     line = line.strip()
-
+    
     # Convert the characters in line to
     # lowercase to avoid case mismatch
     line = line.lower()
