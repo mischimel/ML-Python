@@ -1,7 +1,0 @@
-mango: 3
-banana: 3
-apple: 3
-pear: 2
-grapes: 1
-strawberry: 2
-kiwi: 1
