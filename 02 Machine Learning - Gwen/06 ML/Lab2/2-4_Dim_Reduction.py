@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
 # Import the census data set again:
-data = pd.read_csv('census.data', header=None, index_col=False,
+data = pd.read_csv('../../../census.data', header=None, index_col=False,
                    names=['age', 'workclass', 'fnlwgt',
                             'education', 'education-num', 'marital- status', 'occupation',
                             'relationship', 'race', 'gender', 'capital-gain',
