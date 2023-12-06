@@ -16,6 +16,7 @@ X = df.drop(columns=['Outcome'])
 y = df['Outcome'].values
 
 # split the data to training and test set
+# random_state is to have the same seed value, so it is comparable, in the final one you would take it out
 X_train, X_test, y_train, y_test = train_test_split(X, y, stratify = y, test_size=0.4, random_state=23)
 
 # We use the nearest neighbour classifier KNeighborsClassifier.
